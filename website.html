@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-image: url(https://images3.alphacoders.com/378/thumb-1920-37815.jpg);
+    }
+ 
+   
+   
+ 
+
+</style>
+<body>
+
+ 
+
+<h1 style="color: gold;" > HazardHarry9's Website! </h1>
+
+
+
+
+
+
+</body>
+
+
+
+
+<base>
+
+
+<header style="color: gold;"> Click On The Buttons Below To Access My Socials!</header>
+
+
+<button id="ytbtn" style="color: green;"> youtube </button>
+
+<button id="igbtn" style="color: green;"> instagram </button>
+
+<button id="tbtn" style="color: green;"> twitch </button>
+
+<h3 style="color: gold;"> Please consider donating! :) </h3>
+
+<button id="donate" style="color: rgb(0, 122, 10);" style="border: gold;"> Donate! </button>
+
+<h2 style="color: gold;"> Take the HazardHarry9 test down below! </h2>
+
+<button id=test1 style="color: green;"> Test! </button>
+
+<h2 id="results" style="color: gold;"> Results: </h2>
+
+<h2 style="color: gold;"> MERCH! </h2>
+
+<button id=clothes style="color: rgb(20, 136, 10);"> Merch </button>
+
+<h2 style="color: gold;" align = "right"> My most popular video! </h2>
+
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/4EV9La8dSfU" align = "right">
+</iframe>
+
+
+    <script>
+
+
+
+
+
+var yt = document.getElementById ("ytbtn")
+
+yt.onclick = function() {
+    open ("https://www.youtube.com/channel/UCaa_7kxOHpm2oqYW9GMc-UQ")
+}
+
+var ig = document.getElementById ("igbtn")
+
+ig.onclick = function() {
+    open ("https://www.instagram.com/hbalko978/?hl=en")
+}
+
+var twitch = document.getElementById ("tbtn")
+
+twitch.onclick = function() {
+    open ("https://www.twitch.tv/hazardharry9")
+}
+
+var image1 = document.getElementById ("img1")
+
+image1.onclick = function() {
+    open ("https://www.twitch.tv/hazardharry9")
+}
+
+
+
+var dono = document.getElementById ("donate")
+
+donate.onclick = function() {
+    open ("https://streamlabs.com/hazardharry9/tip")
+}
+
+
+
+var test = document.getElementById ("test1")
+
+test.onclick = function() {
+    var r1 = 0
+    var r2 = 20
+    var q1 = prompt ("When did HazardHarry9 start streaming?  A.August 29th, 2020  B. October 1st, 2019  C. December 4th, 2015  D. June 8th, 2020 *please awnser with 1 letter ex: A")
+    console.log (q1)
+   q1.toLocaleLowerCase()
+
+   if(q1 == "a") {
+    r1+=r2
+   } else {
+       r1
+   };
+console.log(r1);
+   var q2 = prompt ("When is HazardHarry9's Birthday?  A. June 14th  B. August 29th  C. October 1st  D. December 14th")
+
+  console.log (q2);
+    q2.toLowerCase();
+
+    if(q2 == "b") {
+    r1+=r2
+    } else {
+        r1
+    }
+console.log(r1);
+    var q3 = prompt ("What platform does HazardHarry9 use for streaming?  A. Youtube  B. Twitch  C. Facebook Gaming D. Instagram Live")
+
+console.log  (q3);
+  q3.toLowerCase();
+
+   if(q3 == "b") {
+   r1+=r2
+   } else {
+       r1
+   }
+console.log(r1)
+
+  var q4 = prompt ("What console does HazardHarry9 stream on?  A. Playstion 4  B. Playstation 5  C. Xbox Series X  D. Xbox One")
+
+  console.log (q4);
+   q4.toLowerCase();
+
+    if(q4 == "d") {
+        r1+=r2
+    } else {
+        r1
+    };
+console.log(r1)
+    var q5 = prompt ("What is HazardHarry9's most streamed game?  A. Gta V  B. Fortnite  C. Skate 3  D. Five Nights At Freddys")
+
+    console.log (q5);
+      q5.toLowerCase();
+
+      
+      if(q5 == "b") {
+          r1+=r2
+      } else {
+          r1
+      };
+
+    console.log (r1)
+
+      var result = document.getElementById ("results")
+
+      var percent = "%"
+
+     result.innerText = ("Results: ") + r1 + "%"
+
+
+};
+
+
+  var merch = document.getElementById ("clothes")
+
+  merch.onclick = function() {
+      open ("https://streamlabs.com/hazardharry9/merch")
+  }
+
+
+  </script>
+</body>
+
+
+
+
+
+
+
+
+</base>
+
+</html>
